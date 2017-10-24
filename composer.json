@@ -1,0 +1,24 @@
+{
+    "name": "hoanglinh91/composer-zsdk-library",
+    "description": "sdk for zalo developers",
+    "keywords": ["zalosdk", "composer", "zalo", "sdk"],
+    "license": "ZALO",
+    "authors": [
+        {
+            "name": "hoanglinh91",
+            "email": "hoanglinh91@gmail.com"
+        }
+    ],
+    "type": "project",
+    "require": {
+		"php": ">=5.4"
+    },
+	"require-dev": {
+		"phpunit/phpunit": "5.2.*"
+    },
+	"autoload": {
+        "psr-4": {
+            "Zalo\\": "src/"
+        }
+    }
+}
